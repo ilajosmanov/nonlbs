@@ -25,19 +25,14 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          'gatsby-remark-relative-images',
           {
             resolve: `gatsby-transformer-sharp`,
             options: {
               maxWidth: 2048,
-              name: "uploads"
             },
           },
-          {
-            resolve: `gatsby-remark-copy-linked-files`,
-            options: {
-              destinationDir: `${__dirname}/static`,
-            }
-          }
+          `gatsby-remark-copy-linked-files`
         ],
       },
     },
