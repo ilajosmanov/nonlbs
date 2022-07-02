@@ -2,12 +2,8 @@ backend:
   name: github
   repo: ilajosmanov/nonlbs
   branch: main
-media_folder: static/images
+media_folder: /static
 public_folder: /static
-media_library:
-  name: uploadcare
-  config:
-    publicKey: 378aa027f5500b010321
 
 collections:
   - name: Proudcts
@@ -28,10 +24,12 @@ collections:
       - { name: "shoulders", label: "Shoulders", widget: "string" }
       - { name: "sleeve", label: "Sleeve", widget: "string" }
       - { name: "description", label: "Description", widget: "markdown" }
-      - name: cover
-        label: Cover Image
-        widget: image
-        media_library:
-          config:
-            multiple: true
-            previewStep: false
+      - label: "Gallery"
+        name: "images"
+        widget: "list"
+        summary: '{{fields.image}}'
+        fields:
+          - {label: Image, name: "image1", widget: image}
+          - {label: Image, name: "image2", widget: image, required: false}
+          - {label: Image, name: "image3", widget: image, required: false}
+          - {label: Image, name: "image4", widget: image, required: false}
