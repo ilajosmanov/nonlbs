@@ -22,7 +22,7 @@ const CatalogPage = ({data}) => {
           <Link to="/" className={css.productsItem}>
             <GatsbyImage
               className={css.productsImage}
-              image={getImage(p.image)}
+              image={getImage(p.images[0].image1)}
               objectFit="contain"
               objectPosition="center"
               alt={p.title}
@@ -43,6 +43,13 @@ query Query {
       node {
         frontmatter {
           title
+          images {
+            image1 {
+              childImageSharp {
+                gatsbyImageData(formats: [WEBP, AVIF, AUTO], layout: FULL_WIDTH)
+              }
+            }
+          }
         }
       }
     }

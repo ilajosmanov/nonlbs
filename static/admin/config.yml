@@ -11,7 +11,7 @@ collections:
     folder: content/catalog
     create: true
     identifier_field: title
-    slug: "{{fields.title}}"
+    slug: "/content/{{filename}}"
     editor:
       preview: false
     fields:
