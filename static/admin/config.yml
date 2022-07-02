@@ -15,8 +15,11 @@ collections:
     folder: content/catalog
     create: true
     identifier_field: title
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{fields.title}}"
+    editor:
+      preview: false
     fields:
+      - { name: "templateKey", label: "Template Key", widget: "hidden", default: "product-page" }
       - { name: "title", label: "Title", widget: "string" }
       - { name: "price", label: "Price", widget: "string" }
       - { name: "size", label: "Size", widget: "string" }
