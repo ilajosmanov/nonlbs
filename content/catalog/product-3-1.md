@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Product 3
+title: Product 4
 price: "450"
 size: "20"
 width: "20"
