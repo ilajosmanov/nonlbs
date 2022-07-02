@@ -1,0 +1,39 @@
+{
+  "name": "nonlbs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "nonlbs",
+  "author": "ilajosmanov",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@vanilla-extract/babel-plugin": "^1.1.7",
+    "@vanilla-extract/css": "^1.7.2",
+    "@vanilla-extract/webpack-plugin": "^2.1.11",
+    "gatsby": "^4.17.2",
+    "gatsby-plugin-image": "^2.17.0",
+    "gatsby-plugin-netlify": "^5.0.0",
+    "gatsby-plugin-netlify-cms": "^6.17.0",
+    "gatsby-plugin-purgecss": "^6.1.2",
+    "gatsby-plugin-react-helmet": "^5.17.0",
+    "gatsby-plugin-sharp": "^4.17.0",
+    "gatsby-plugin-vanilla-extract": "^2.0.1",
+    "gatsby-remark-copy-linked-files": "^5.17.0",
+    "gatsby-remark-images": "^6.17.0",
+    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby-source-filesystem": "^4.17.0",
+    "gatsby-transformer-remark": "^5.17.0",
+    "gatsby-transformer-sharp": "^4.17.0",
+    "netlify-cms-media-library-uploadcare": "^0.5.10",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
