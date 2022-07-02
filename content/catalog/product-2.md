@@ -9,7 +9,7 @@ shoulders: "20"
 sleeve: "20"
 description: Lorem ipsum dolor sit amet
 images:
-  - image1: /static/15-1.jpg
-    image2: /static/7.jpg
-    image3: ""
+  - image1: ../../static/15-1.jpg
+    image2: ../../static/7.jpg
+    image3: null
 ---

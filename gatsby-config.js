@@ -29,9 +29,15 @@ module.exports = {
             resolve: `gatsby-transformer-sharp`,
             options: {
               maxWidth: 2048,
+              name: "uploads"
             },
           },
-          `gatsby-remark-copy-linked-files`
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+            options: {
+              destinationDir: `${__dirname}/static`,
+            }
+          }
         ],
       },
     },
