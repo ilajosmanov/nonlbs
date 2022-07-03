@@ -12,13 +12,13 @@ export const ScrollPage = ({
     <div className={css.page} style={{
       background
     }}>
-      {header()}
+      {header && header()}
 
       <main className={css.main}>
         {children}
       </main>
 
-      {footer()}
+      {footer && footer()}
     </div>
   )
 }

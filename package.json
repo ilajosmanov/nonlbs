@@ -34,6 +34,7 @@
     "gatsby-transformer-sharp": "^4.17.0",
     "netlify-cms-media-library-uploadcare": "^0.5.10",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-masonry-css": "^1.0.16"
   }
 }

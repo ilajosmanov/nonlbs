@@ -1,5 +1,6 @@
 import * as React from "react"
 import { graphql, Link } from "gatsby";
+import Masonry from 'react-masonry-css'
 import {getImage, GatsbyImage} from "gatsby-plugin-image"
 
 import { ScrollPage } from '../components/scroll-page/scroll-page';
@@ -10,16 +11,28 @@ import { Header } from '../widgets/header/header';
 import { getData } from '../lib/getData';
 import * as css from '../page-styles/catalog.css';
 
+const breakpointColumns = {
+  default: 3,
+  981: 2,
+};
+
 const CatalogPage = ({data}) => {
   const products = getData(data, 'products');
+
   return (
     <ScrollPage
       header={() => <Header color="dark" />}
       footer={() => <Footer color="dark" />}
     >
-      <ul className={css.productsList}>
-        {products.map(p => <li key={p.title}>
-          <Link to="/" className={css.productsItem}>
+      <Masonry
+        breakpointCols={breakpointColumns}
+        className={css.productsList}
+      >
+        {products.map(p => <div key={p.title}>
+          <Link
+            to={`/catalog/${p.title.toLowerCase().replaceAll(" ", "_")}`}
+            className={css.productsItem}
+          >
             <GatsbyImage
               className={css.productsImage}
               image={getImage(p.images[0].image1)}
@@ -28,8 +41,9 @@ const CatalogPage = ({data}) => {
               alt={p.title}
             />
           </Link>
-        </li>)}
-      </ul>
+        </div>)}
+      </Masonry>
+
     </ScrollPage>
   )
 }

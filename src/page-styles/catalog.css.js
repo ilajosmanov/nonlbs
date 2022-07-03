@@ -2,14 +2,9 @@ import { style } from "@vanilla-extract/css";
 
 
 export const productsList = style({
-  margin: 0,
-  padding: 0,
-  listStyle: "none",
   width: "100%",
 
-  display: "grid",
-  gridTemplateColumns: "repeat(3, 1fr)",
-  justifyContent: "center",
+  display: "flex",
 
   "@media": {
     "screen and (max-width: 981px)": {
