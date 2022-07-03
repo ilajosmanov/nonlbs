@@ -25,8 +25,8 @@ const faq = [
 const FaqPage = () => {
   return (
     <ScrollPage
-      header={() => <Header color="light" />}
-      footer={() => <Footer color="light" />}
+      header={() => <Header color="light" noBackground />}
+      footer={() => <Footer color="light" noBackground />}
       background="#FF6754"
     >
       <div

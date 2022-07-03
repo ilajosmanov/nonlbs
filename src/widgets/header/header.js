@@ -19,9 +19,9 @@ const nav = [
   },
 ]
 
-export const Header = ({color = "light"}) => {
+export const Header = ({color = "light", noBackground}) => {
   return (
-    <header className={css.header[color]}>
+    <header className={css.header[color]} style={noBackground ? {background: "none"} : null}>
       <div className={css.logo}>
         <Logo color={color} />
       </div>

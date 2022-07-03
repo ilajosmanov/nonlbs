@@ -1,4 +1,4 @@
-import { style } from "@vanilla-extract/css";
+import { globalStyle, style } from "@vanilla-extract/css";
 
 export const formWrapper = style({
   maxWidth: "869px",
@@ -102,4 +102,46 @@ export const sr = style({
   width: "1px",
   height: "1px",
   overflow: "hidden",
+})
+
+export const successContainer = style({
+  textAlign: "center",
+  display: "flex",
+  flexFlow: "column nowrap"
+})
+
+globalStyle(`${successContainer} h1`, {
+  margin: 0,
+  fontWeight: 400,
+  fontSize: "36px",
+
+  "@media": {
+    'screen and (max-width: 1241px)': {
+      fontSize: "16px"
+    }
+  }
+})
+globalStyle(`${successContainer} p`, {
+  margin: "24px 0 24px 0",
+  fontWeight: 400,
+  fontSize: "36px",
+
+  "@media": {
+    'screen and (max-width: 1241px)': {
+      fontSize: "16px"
+    }
+  }
+})
+
+export const successIcon = style({
+  maxWidth: "160px",
+  width: "100%",
+  margin: "45px auto",
+
+  "@media": {
+    'screen and (max-width: 771px)': {
+      margin: "12px auto",
+      maxWidth: "72px"
+    }
+  }
 })

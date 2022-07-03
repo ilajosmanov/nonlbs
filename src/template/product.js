@@ -13,6 +13,7 @@ const ProductPage = (props) => {
   return (
     <ScrollPage header={() => <Header color="dark" />} footer={() => <Footer color="dark" />}>
       <main className={css.main}>
+        <h1 className={css.headline}>{props.pageContext.title}</h1>
         <div className={css.mainInformation}>
           <div className={css.params}>
             <div>
@@ -49,10 +50,12 @@ const ProductPage = (props) => {
               productName: props.pageContext.title
             }}
           />
+          <p className={css.messageMobile}>
+            Доставка до 7 робочих днів. На одязі можуть бути видні маленькі недоліки, тому що раніше мішки використовували для транспортування їжі.
+          </p>
         </div>
 
         <section className={css.galleryWrapper}>
-          <h1>{props.pageContext.title}</h1>
           <ul className={css.gallery}>
             {
               Object.values(props.pageContext.images[0])
@@ -70,7 +73,7 @@ const ProductPage = (props) => {
                  </li>)
             }
           </ul>
-          <p className={css.message}>
+          <p className={css.messageDesktop}>
             Доставка до 7 робочих днів. На одязі можуть бути видні маленькі недоліки, тому що раніше мішки використовували для транспортування їжі.
           </p>
         </section>

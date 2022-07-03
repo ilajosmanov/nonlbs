@@ -21,6 +21,23 @@ export const main = style({
   }
 })
 
+export const headline = style({
+  width: "100%",
+  paddingLeft: "50%",
+  margin: "0 0 25px 0",
+  lineHeight: "0.75",
+  fontWeight: 'normal',
+  fontSize: "36px",
+
+  "@media": {
+    "screen and (max-width: 801px)": {
+      fontSize: "24px",
+      paddingLeft: "15px",
+      marginBottom: "25px"
+    }
+  }
+})
+
 export const mainInformation = style({
   color: colors.black,
   lineHeight: 1.47,
@@ -28,10 +45,13 @@ export const mainInformation = style({
   padding: "0 30px",
   minWidth: "50%",
   fontSize: "inherit",
+  display: "flex",
+  flexFlow: "column nowrap",
 
   "@media": {
     "screen and (max-width: 801px)": {
-      order: 2
+      order: 2,
+      width: "100%"
     }
   }
 })
@@ -56,18 +76,6 @@ export const galleryWrapper = style({
       order: 1,
       width: "100%",
       padding: "0 15px"
-    }
-  }
-})
-
-globalStyle(`${galleryWrapper} h1`, {
-  margin: "0 0 21px 0",
-  fontWeight: 'normal',
-  fontSize: "inherit",
-
-  "@media": {
-    "screen and (max-width: 801px)": {
-      fontSize: "24px"
     }
   }
 })
@@ -107,8 +115,7 @@ globalStyle(`${galleryItem} .gatsby-image-wrapper`, {
 
 export const buyButton = style({
   width: "100%",
-  marginTop: "81px",
-
+  marginTop: "auto",
 
   "@media": {
     "screen and (max-width: 801px)": {
@@ -117,7 +124,7 @@ export const buyButton = style({
   }
 })
 
-export const message = style({
+export const messageDesktop = style({
   whiteSpace: "nowrap",
   margin: "10px 0 0 0",
   fontSize: "18px",
@@ -125,7 +132,21 @@ export const message = style({
   "@media": {
     "screen and (max-width: 801px)": {
       whiteSpace: "normal",
-      marginBottom: "24px"
+      marginBottom: "0",
+      lineHeight: "0.5",
+      opacity: "0"
+    }
+  }
+})
+
+export const messageMobile = style({
+  display: "none",
+  "@media": {
+    "screen and (max-width: 801px)": {
+      fontSize: "18px",
+      whiteSpace: "normal",
+      marginBottom: "0",
+      display: "block"
     }
   }
 })

@@ -1,10 +1,11 @@
 import React from 'react';
+import { colors } from '../../root.css';
 
 import * as css from './footer.css';
 
-export const Footer = ({color = "dark"}) => {
+export const Footer = ({color = "dark", noBackground, yellowColor}) => {
   return (
-    <footer className={css.footer[color]}>
+    <footer className={css.footer[color]} style={noBackground ? {background: "none"} : null}>
       <address className={css.contacts}>
         <ul className={css.contactsList}>
           <li>
@@ -35,7 +36,7 @@ export const Footer = ({color = "dark"}) => {
       </address>
 
       <div className={css.copyright}>
-        <span>
+        <span style={yellowColor ? {color: colors.primary} : null}>
           Ukraine, {" "}
         </span>
         <span>

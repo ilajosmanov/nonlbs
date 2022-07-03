@@ -10,8 +10,8 @@ import * as css from '../page-styles/about.css';
 const AboutPage = () => {
   return (
     <ScrollPage
-      header={() => <Header color="light" />}
-      footer={() => <Footer color="light" />}
+      header={() => <Header color="light" noBackground />}
+      footer={() => <Footer color="light" noBackground yellowColor />}
       background="#4064AC"
     >
       <div className={css.descriptionContainer}>
