@@ -14,7 +14,7 @@ const nav = [
     to: "/about"
   },
   {
-    title: "FAQ",
+    title: "Q&A",
     to: "/faq"
   },
 ]

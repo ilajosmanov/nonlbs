@@ -13,7 +13,9 @@ globalStyle('body', {
   margin: 0,
   WebkitFontSmoothing: `antialiased`,
   fontSize: "16px",
-  fontFamily: "Helvetica"
+  fontFamily: "Helvetica",
+  minHeight: "100vh",
+  "min-height": "-webkit-fill-available",
 })
 
 globalStyle(`img, picture, video, canvas, svg`, {

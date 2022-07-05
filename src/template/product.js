@@ -51,7 +51,7 @@ const ProductPage = (props) => {
             }}
           />
           <p className={css.messageMobile}>
-            Доставка до 7 робочих днів. На одязі можуть бути видні маленькі недоліки, тому що раніше мішки використовували для транспортування їжі.
+            Delivery is up to 7 working days. Small flaws may be visible on the clothes, because the vintage fabrics were previously used to transport food.
           </p>
         </div>
 

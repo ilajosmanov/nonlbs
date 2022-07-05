@@ -9,16 +9,16 @@ import * as css from '../page-styles/faq.css';
 
 const faq = [
   {
-    title: "Як я отримаю замовлення?",
-    description: "Відправляємо одяг по Україні та за кордон поштою. Приблизний термін доставки - до 7 робочих днів."
+    title: "How do I receive my order?",
+    description: "We send clothes across Ukraine and abroad by post office. Estimated delivery time is up to 7 business days."
   },
   {
-    title: "Чи можна повернути товар?",
-    description: "Так. Протягом двох тижнів Ви можете написати нам в Інстаграм або на пошту non.lbs.clth@gmail.com і повернути товар."
+    title: "Can I return the product?",
+    description: "Yes. You can contact us within two weeks via Instagram or mail non.lbs.clth@gmail.com and return the product."
   },
   {
-    title: "Маю інше запитання",
-    description: "Пишіть в Інстаграмі або на пошту 🙂"
+    title: "I still have a question",
+    description: "Contact us via Instagram or mail non.lbs.clth@gmail.com 🙂"
   }
 ]
 

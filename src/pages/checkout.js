@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby";
+import { Link, navigate } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
 import { ScrollPage } from '../components/scroll-page/scroll-page';
@@ -22,9 +22,18 @@ function makeFormData(payload) {
 
 const CheckoutPage = (props) => {
   const [sent, setSent] = React.useState(false);
-  const product = props.location.state.productName;
+
+  React.useEffect(() => {
+    if (!props.location.state?.productName) {
+      navigate('/catalog')
+    }
+  }, [props])
 
   const [statusLabel, settStatusLabel] = React.useState("Confirm");
+
+  const handleNavigate = () => {
+    navigate(`/catalog/${props.location.state.productName.toLowerCase().replaceAll(" ", "_")}`)
+  }
 
   const handleSumit = (e) => {
     e.preventDefault()
@@ -34,7 +43,7 @@ const CheckoutPage = (props) => {
 
     fetch(e.target.action, {
       body: makeFormData({
-        product,
+        product: props.location.state.productName,
         ...Object.fromEntries(body.entries())
       }),
       method: "POST",
@@ -61,13 +70,13 @@ const CheckoutPage = (props) => {
   return (
     <ScrollPage background={colors.primary}>
       <div className={css.formWrapper}>
-        <Link className={css.closeButton} to={`/catalog/${product.toLowerCase().replaceAll(" ", "_")}`}>
+        <button className={css.closeButton} onClick={handleNavigate}>
           <StaticImage src="../images/close.svg" alt="Back to product page" />
 
           <span className={css.sr}>
             Back to product page
           </span>
-        </Link>
+        </button>
         {sent ? <div className={[css.form, css.successContainer].join(" ")}>
           <div>
             <h1>Coool ❤️</h1>
