@@ -20,6 +20,7 @@ const IndexPage = () => {
         autoPlay
         muted
         loop
+        playsInline
         className={css.video}
       >
         <source

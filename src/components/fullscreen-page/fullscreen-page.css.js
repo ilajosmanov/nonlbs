@@ -8,8 +8,8 @@ export const fullscreen = style({
 
 
   "@supports": {
-    "-webkit-touch-callout: none": {
-      height: "-webkit-fill-available"
+    "(-webkit-touch-callout: none)": {
+      minHeight: "-webkit-fill-available"
     }
   }
 })
