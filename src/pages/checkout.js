@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link, navigate } from "gatsby";
+import { navigate } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
 import { ScrollPage } from '../components/scroll-page/scroll-page';
