@@ -2,6 +2,7 @@ backend:
   name: github
   repo: ilajosmanov/nonlbs
   branch: main
+  base_url: nonlbs.vercel.app
 media_folder: /static
 public_folder: ../../static
 
