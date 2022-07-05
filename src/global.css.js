@@ -6,7 +6,14 @@ globalStyle('*, *::before, *::after', {
 
 globalStyle('html, body', {
   width: "100%",
-  minHeight: "100vh"
+  minHeight: "100vh",
+
+
+  "@supports": {
+    "(-webkit-touch-callout: none)": {
+      minHeight: "-webkit-fill-available"
+    }
+  }
 })
 
 globalStyle('body', {
@@ -14,13 +21,7 @@ globalStyle('body', {
   WebkitFontSmoothing: `antialiased`,
   fontSize: "16px",
   fontFamily: "Helvetica",
-  minHeight: "100vh",
-
-  "@supports": {
-    "(-webkit-touch-callout: none)": {
-      minHeight: "-webkit-fill-available"
-    }
-  }
+  minHeight: "100vh"
 })
 
 globalStyle(`img, picture, video, canvas, svg`, {
