@@ -2,7 +2,7 @@ backend:
   name: github
   repo: ilajosmanov/nonlbs
   branch: main
-  base_url: https://nonlbs.com
+  site_url: https://nonlbs.com
 media_folder: /static
 public_folder: ../../static
 
