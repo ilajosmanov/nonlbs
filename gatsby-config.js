@@ -6,6 +6,16 @@ module.exports = {
     "gatsby-plugin-vanilla-extract",
     "gatsby-plugin-react-helmet",
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `oswald`,
+          `400` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/content`,

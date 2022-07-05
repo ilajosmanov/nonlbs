@@ -8,6 +8,7 @@ export const main = style({
   display: "flex",
   flexWrap: "wrap",
   fontSize: "36px",
+  fontFamily: "'Oswald', sans-serif",
 
   "@media": {
     "screen and (max-width: 1181px)": {

@@ -19,7 +19,7 @@ const ProductPage = (props) => {
             <div>
               <p>Price:</p>
               <p>
-                ${props.pageContext.price}
+                {props.pageContext.price}
               </p>
             </div>
             <div>

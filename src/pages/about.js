@@ -16,14 +16,11 @@ const AboutPage = () => {
     >
       <div className={css.descriptionContainer}>
         <p className={css.description}>
-          non.Lbs. - апсайкл бренд, який створює екологічний одяг <br />
-          з вінтажних тканин та одягу вторинного використання.
-          <br />
-          <br />
-          Мета бренду - створювати, не приносячи шкоди планеті
-          та людям. <br />
-          Перші дві колекції зроблені з вінтажних американських мішків <br />
-          50-60-х років та з переробленего одягу.
+        non.Lbs. - upcycle brand that creates eco-friendly clothes made of vintage fabrics and recycled clothes.
+        <br />
+        The purpose of the brand is to create clothes without harming the planet and people.
+        <br />
+        The first two collections are made of vintage American bags from the 50s and 60s and recycled clothing.
         </p>
       </div>
     </ScrollPage>

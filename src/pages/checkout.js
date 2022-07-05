@@ -68,7 +68,7 @@ const CheckoutPage = (props) => {
             Back to product page
           </span>
         </Link>
-        {!sent ? <div className={[css.form, css.successContainer].join(" ")}>
+        {sent ? <div className={[css.form, css.successContainer].join(" ")}>
           <div>
             <h1>Coool ❤️</h1>
             <p>
