@@ -15,7 +15,12 @@ globalStyle('body', {
   fontSize: "16px",
   fontFamily: "Helvetica",
   minHeight: "100vh",
-  "min-height": "-webkit-fill-available",
+
+  "@supports": {
+    "-webkit-touch-callout: none": {
+      height: "-webkit-fill-available"
+    }
+  }
 })
 
 globalStyle(`img, picture, video, canvas, svg`, {
