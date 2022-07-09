@@ -8,12 +8,10 @@ length: "70"
 shoulders: "53"
 sleeve: "58"
 description: |-
-  Made of
-
+  Made of\
   one vintage seed sack two reworked shirts.
 
-  How to take care
-
+  How to take care\
   Wash at 30 degrees\
   Do not bleach\
   Iron inside out
