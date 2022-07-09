@@ -1,22 +1,23 @@
 ---
 templateKey: product-page
-title: Сорочка Rammy
-price: 4000$
+title: Shirt Ramy
+price: 150$
 size: L
 width: "74"
 length: "58"
 shoulders: "54"
 sleeve: "56"
 description: |-
-  **Склад** 
-  Вінтажний американський мішок
-  і дві перероблені сорочки
+  **Made of**  
+  one vintage seed sack and two reworked shirts.
 
-  **Догляд**
-  Прати при 30 градусах
-  Не відбілювати
-  Гладити навиворіт
+  **How to take care**
+  Wash at 30 degrees\
+  Do not bleach\
+  Iron inside out
 images:
-  - image1: ../../static/6.jpg
-    image2: ../../static/7.jpg
+  - image1: ../../static/3.jpg
+    image2: ../../static/5.jpg
+    image3: ../../static/2.jpg
+    image4: ../../static/6.jpg
 ---
