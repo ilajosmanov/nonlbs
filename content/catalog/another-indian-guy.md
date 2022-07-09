@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Another Indian guy
+title: Another Indian guy (shirt)
 price: 140$
 size: M
 width: "60"
