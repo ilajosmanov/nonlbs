@@ -17,7 +17,7 @@ description: |-
   Iron inside out
 images:
   - image1: ../../static/65.jpg
-    image2: ../../static/64.jpg
+    image2: ../../static/86.jpg
     image3: ../../static/img_8500.png
     image4: ../../static/img_8506.png
 ---
