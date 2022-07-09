@@ -18,6 +18,6 @@ description: |-
 images:
   - image1: ../../static/3.jpg
     image2: ../../static/5.jpg
-    image3: ../../static/2.jpg
+    image3: ../../static/15.jpg
     image4: ../../static/6.jpg
 ---
