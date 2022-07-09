@@ -8,12 +8,10 @@ length: "65"
 shoulders: "40"
 sleeve: "60"
 description: |-
-  **Made of**
-
+  **Made of**\
   one seed sack and one reworked shirt.
 
-  **How to take care**
-
+  **How to take care**\
   Wash at 30 degrees\
   Do not bleach\
   Iron inside out
