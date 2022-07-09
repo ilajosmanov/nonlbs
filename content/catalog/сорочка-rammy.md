@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Shirt Ramy
+title: Ramy
 price: 150$
 size: L
 width: "74"
