@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Shirt Superior
+title: Superior
 price: 150$
 size: S
 width: "49"
