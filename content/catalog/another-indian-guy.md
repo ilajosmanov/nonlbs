@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Another Indian guy (shirt)
-price: 140$
+price: 150$
 size: M
 width: "60"
 length: "74"
