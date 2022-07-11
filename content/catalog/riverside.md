@@ -17,4 +17,5 @@ description: |-
   Iron inside out
 images:
   - image1: ../../static/90.jpg
+    image2: ../../static/штанішкі.png
 ---
