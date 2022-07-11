@@ -17,5 +17,5 @@ description: |-
   Iron inside out
 images:
   - image1: ../../static/75.jpg
-    image2: ../../static/71.jpg
+    image2: ../../static/aa.png
 ---
