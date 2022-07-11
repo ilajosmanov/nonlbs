@@ -17,4 +17,6 @@ description: |-
   Iron inside out
 images:
   - image1: ../../static/62.jpg
+    image2: ../../static/весілля.png
+    image3: ../../static/весілля2.png
 ---
