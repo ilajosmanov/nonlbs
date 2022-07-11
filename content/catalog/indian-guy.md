@@ -18,4 +18,5 @@ description: |-
 images:
   - image1: ../../static/7.jpg
     image2: ../../static/15.jpg
+    image3: ../../static/червонаалана.png
 ---
