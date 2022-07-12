@@ -14,7 +14,7 @@ description: |-
   one vintage sack and two reworked shirts.
   This item is one of a kind. 
 
-  How to take care
+  **How to take care**
   Wash at 30 degrees
   Do not bleach
   Iron inside out
