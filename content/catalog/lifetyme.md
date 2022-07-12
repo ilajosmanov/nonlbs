@@ -19,7 +19,7 @@ description: |-
   Do not bleach
   Iron inside out
 images:
-  - image1: ../../static/61.jpg
-    image2: ../../static/60.jpg
-    image3: ../../static/67.jpg
+  - image1: ../../static/60.jpg
+    image2: ../../static/67.jpg
+    image3: ""
 ---
