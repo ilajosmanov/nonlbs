@@ -34,7 +34,8 @@ export const headline = style({
     "screen and (max-width: 801px)": {
       fontSize: "24px",
       paddingLeft: "15px",
-      marginBottom: "25px"
+      marginBottom: "25px",
+      marginTop: "25px"
     }
   }
 })

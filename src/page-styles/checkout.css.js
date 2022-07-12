@@ -36,8 +36,8 @@ export const closeButton = style({
     },
     'screen and (max-width: 771px)': {
       marginRight: "-5px",
-      width: "50px",
-      height: "50px"
+      width: "90px",
+      height: "90px"
     }
   }
 })

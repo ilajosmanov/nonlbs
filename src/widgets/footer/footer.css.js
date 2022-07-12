@@ -18,7 +18,7 @@ const footerBase = style({
 })
 
 export const footer = styleVariants({
-  light: [footerBase, {background: "rgba(0, 0, 0, .1)"}],
+  light: [footerBase],
   dark: [footerBase]
 })
 

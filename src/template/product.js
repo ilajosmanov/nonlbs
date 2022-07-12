@@ -9,7 +9,17 @@ import { Header } from '../widgets/header/header';
 import * as css from '../page-styles/product.css';
 import { Button } from "../components/button/button";
 
+const params = {
+  width: "Width",
+  length: "Length",
+  shoulders: "Shoulders",
+  sleeve: "Sleeve",
+  waist: "Waist",
+  rise: "Rise"
+}
+
 const ProductPage = (props) => {
+  console.log(props.pageContext.length !== "0");
   return (
     <ScrollPage header={() => <Header color="dark" />} footer={() => <Footer color="dark" />}>
       <main className={css.main}>
@@ -29,10 +39,11 @@ const ProductPage = (props) => {
               </p>
             </div>
             <div>
-              <p>Length: {props.pageContext.length}cm</p>
-              <p>Width: {props.pageContext.width}cm</p>
-              <p>Shoulders: {props.pageContext.shoulders}cm</p>
-              <p>Sleeve: {props.pageContext.sleeve}cm</p>
+              {Object.keys(params).map(param => <p key={param}>
+                {props.pageContext[param] && <>
+                  {params[param]}: {props.pageContext[param]}cm
+                </>}
+              </p>)}
             </div>
           </div>
 
@@ -74,7 +85,7 @@ const ProductPage = (props) => {
             }
           </ul>
           <p className={css.messageDesktop}>
-            Доставка до 7 робочих днів. На одязі можуть бути видні маленькі недоліки, тому що раніше мішки використовували для транспортування їжі.
+            Delivery is up to 7 working days. Small flaws may be visible on the clothes, because the vintage fabrics were previously used to transport food.
           </p>
         </section>
       </main>
