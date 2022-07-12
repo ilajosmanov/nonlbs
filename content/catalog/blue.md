@@ -8,7 +8,7 @@ length: "70"
 shoulders: "42"
 sleeve: "63"
 description: |-
-  Made of\
+  Made of \
   one vintage seed sack and one reworked shirt.
 
   How to take care\
