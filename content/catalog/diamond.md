@@ -11,7 +11,7 @@ waist: "0"
 rise: "0"
 description: |-
   Made of
-  two vintage seed sacks and two reworked shirts. 
+  two vintage sacks and two reworked shirts. 
   This item is one of a kind. 
 
   How to take care
