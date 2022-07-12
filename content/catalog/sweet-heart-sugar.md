@@ -3,17 +3,20 @@ templateKey: product-page
 title: Sweet Heart Sugar
 price: 150$
 size: L
-width: d
+width: "0"
 length: "160"
-shoulders: d
-sleeve: d
+shoulders: "0"
+sleeve: "0"
+waist: "37"
+rise: "30"
 description: |-
-  Made of\
-  one vintage seed sack and one pair of reworked trousers.
+  Made of
+  one vintage sack and one pair of reworked trousers.
+  This item is one of a kind. 
 
-  How to take care\
-  Wash at 30 degrees\
-  Do not bleach\
+  How to take care
+  Wash at 30 degrees
+  Do not bleach
   Iron inside out
 images:
   - image1: ../../static/87.jpg

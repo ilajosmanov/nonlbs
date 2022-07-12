@@ -7,13 +7,16 @@ width: "51"
 length: "56"
 shoulders: "40"
 sleeve: "28"
+waist: "0"
+rise: "0"
 description: |-
-  Made of\
+  Made of
   one vintage sack and two reworked shirts. 
+  This item is one of a kind. 
 
-  How to take care\
-  Wash at 30 degrees\
-  Do not bleach\
+  How to take care
+  Wash at 30 degrees
+  Do not bleach
   Iron inside out
 images:
   - image1: ../../static/lina_diagonal_img_8580_retouched.jpg

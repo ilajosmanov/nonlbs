@@ -7,13 +7,16 @@ width: "74"
 length: "58"
 shoulders: "54"
 sleeve: "56"
+waist: "0"
+rise: "0"
 description: |-
-  **Made of**  
-  one vintage seed sack and two reworked shirts.
+  Made of 
+  one vintage sack and two reworked shirts.
+  This item is one of a kind. 
 
   **How to take care**
-  Wash at 30 degrees\
-  Do not bleach\
+  Wash at 30 degrees
+  Do not bleach
   Iron inside out
 images:
   - image1: ../../static/3.jpg
