@@ -10,7 +10,15 @@ const buttonBase = style({
   cursor: "pointer",
   display: "inline-block",
   textAlign: "center",
-  textDecoration: "none"
+  textDecoration: "none",
+
+  "@media": {
+    'screen and (max-width: 651px)': {
+      fontSize: "20px",
+      padding: "10px",
+      lineHeight: 1.2
+    }
+  }
 })
 
 export const button = styleVariants({

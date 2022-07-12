@@ -89,8 +89,7 @@ export const submitButton = style({
 
   "@media": {
     'screen and (max-width: 1241px)': {
-      marginTop: "40px",
-      fontSize: "16px"
+      marginTop: "25px"
     }
   }
 })

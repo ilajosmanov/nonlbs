@@ -26,35 +26,8 @@ const IndexPage = () => {
         </p>
       </div>
 
-      {/* <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className={css.video}
-      >
-        <source
-          src={BackgroundVideoMobile}
-          type="video/mp4"
-          media="(max-width: 768px)"
-        />
-        <source
-          src={BackgroundVideoMobileWebm}
-          type="video/webm"
-          media="(max-width: 768px)"
-        />
-        <source
-          src={BackgroundVideoWebm}
-          type="video/webm"
-        />
-        <source
-          src={BackgroundVideo}
-          type="video/mp4"
-        />
-      </video> */}
-
       <div className={css.footerWrapper}>
-        <Footer color="light" />
+        <Footer color="dark" />
       </div>
     </FullscreenPage>
   )

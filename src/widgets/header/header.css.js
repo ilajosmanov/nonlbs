@@ -27,7 +27,7 @@ const headerBase = style({
 
 export const header = styleVariants({
   light: [headerBase],
-  dark: [headerBase]
+  dark: [headerBase, {background: "#fff"}]
 })
 
 export const logo = style({
