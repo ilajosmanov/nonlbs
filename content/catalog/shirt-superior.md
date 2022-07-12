@@ -7,13 +7,16 @@ width: "49"
 length: "65"
 shoulders: "40"
 sleeve: "60"
+waist: "0"
+rise: "0"
 description: |-
-  **Made of**\
+  Made of
   one seed sack and one reworked shirt.
+  This item is one of a kind. 
 
-  **How to take care**\
-  Wash at 30 degrees\
-  Do not bleach\
+  How to take care
+  Wash at 30 degrees
+  Do not bleach
   Iron inside out
 images:
   - image1: ../../static/113.jpg
