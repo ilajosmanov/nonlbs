@@ -19,6 +19,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
                 shoulders
                 size
                 sleeve
+                waist
+                rise
                 images {
                   image1 {
                     childImageSharp {
