@@ -3,7 +3,7 @@ templateKey: product-page
 title: Indian pants
 price: 160$
 size: M
-width: "0"
+width: ""
 length: "118"
 shoulders: "0"
 sleeve: "0"
