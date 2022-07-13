@@ -8,6 +8,7 @@ import { Header } from '../widgets/header/header';
 
 import * as css from '../page-styles/product.css';
 import { Button } from "../components/button/button";
+import { Helmet } from "react-helmet";
 
 const params = {
   width: "Width",
@@ -19,9 +20,9 @@ const params = {
 }
 
 const ProductPage = (props) => {
-  console.log(props.pageContext.length !== "0");
   return (
     <ScrollPage header={() => <Header color="dark" />} footer={() => <Footer color="dark" />}>
+      <Helmet title={props.pageContext.title} defer={false} />
       <main className={css.main}>
         <h1 className={css.headline}>{props.pageContext.title}</h1>
         <div className={css.mainInformation}>
@@ -40,7 +41,7 @@ const ProductPage = (props) => {
             </div>
             <div>
               {Object.keys(params).map(param => <p key={param}>
-                {props.pageContext[param] && <>
+                {props.pageContext[param] && props.pageContext[param] !== "0" && <>
                   {params[param]}: {props.pageContext[param]}cm
                 </>}
               </p>)}

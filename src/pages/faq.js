@@ -6,6 +6,7 @@ import { Footer } from '../widgets/footer/footer';
 import { Header } from '../widgets/header/header';
 
 import * as css from '../page-styles/faq.css';
+import { Helmet } from "react-helmet";
 
 const faq = [
   {
@@ -29,6 +30,7 @@ const FaqPage = () => {
       footer={() => <Footer color="light" noBackground />}
       background="#FF6754"
     >
+      <Helmet title="Q&A" defer={false} />
       <div
         className={css.descriptionContainer}>
         <dl className={css.container}>

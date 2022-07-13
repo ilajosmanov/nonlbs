@@ -7,6 +7,7 @@ import { Button } from '../components/button/button';
 import { colors } from '../root.css';
 
 import * as css from '../page-styles/checkout.css';
+import { Helmet } from "react-helmet";
 
 function makeFormData(payload) {
   const formData = new FormData();
@@ -69,6 +70,7 @@ const CheckoutPage = (props) => {
 
   return (
     <ScrollPage background={colors.primary}>
+      <Helmet title="Checkout" defer={false} />
       <div className={css.formWrapper}>
         <button className={css.closeButton} onClick={handleNavigate}>
           <StaticImage src="../images/close.svg" alt="Back to product page" />

@@ -6,6 +6,12 @@ module.exports = {
     "gatsby-plugin-vanilla-extract",
     "gatsby-plugin-react-helmet",
     {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: 'src/images/favicon.svg',
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [

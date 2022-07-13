@@ -10,10 +10,12 @@ import { Header } from "../widgets/header/header";
 // import BackgroundVideoWebm from '../images/background.webm';
 
 import * as css from '../page-styles/index.css';
+import { Helmet } from "react-helmet";
 
 const IndexPage = () => {
   return (
     <FullscreenPage className={css.page}>
+      <Helmet title="Non.lbs" defer={false} />
       <Header color="dark" />
       <div className={css.content}>
         <h1 className={css.contentTitle}>

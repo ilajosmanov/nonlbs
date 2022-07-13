@@ -10,6 +10,7 @@ import { Header } from '../widgets/header/header';
 
 import { getData } from '../lib/getData';
 import * as css from '../page-styles/catalog.css';
+import { Helmet } from "react-helmet";
 
 const breakpointColumns = {
   default: 3,
@@ -24,6 +25,7 @@ const CatalogPage = ({data}) => {
       header={() => <Header color="dark" />}
       footer={() => <Footer color="dark" />}
     >
+      <Helmet title="Products" defer={false} />
       <Masonry
         breakpointCols={breakpointColumns}
         className={css.productsList}
