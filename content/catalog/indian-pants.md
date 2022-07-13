@@ -6,7 +6,7 @@ size: M
 width: ""
 length: "118"
 shoulders: "0"
-sleeve: "0"
+sleeve: "1"
 waist: "37"
 rise: "31"
 description: |-
@@ -22,5 +22,5 @@ images:
   - image1: ../../static/65.jpg
     image2: ../../static/86.jpg
     image3: ../../static/84.jpg
-    image4:
+    image4: null
 ---
