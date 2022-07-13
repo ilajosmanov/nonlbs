@@ -22,5 +22,5 @@ images:
   - image1: ../../static/38.jpg
     image2: ../../static/37.jpg
     image3: ../../static/img_8531.png
-    image4: ../../static/photo_2022-07-09-18.47.54.jpeg
+    image4: ""
 ---
