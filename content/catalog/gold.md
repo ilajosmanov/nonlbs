@@ -20,7 +20,7 @@ description: |-
   Iron inside out
 images:
   - image1: ../../static/109.jpg
-    image2: ../../static/109.jpg
+    image2: ../../static/105.jpg
     image3: ../../static/img_8491.png
     image4: ../../static/img_8482.png
 ---
