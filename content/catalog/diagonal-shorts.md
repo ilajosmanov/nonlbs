@@ -11,8 +11,8 @@ waist: "36"
 rise: "32"
 description: |-
   Made of
-  one vintage sack and one pair of reworked trousers. 
-  This item is one of a kind. 
+  one vintage sack and one pair of reworked trousers.
+  This item is one of a kind.
 
   How to take care
   Wash at 30 degrees
@@ -22,4 +22,5 @@ images:
   - image1: ../../static/lina_diagonal_img_8570_retouched_2.jpg
     image2: ../../static/lina_diagonal_img_8566_retouched.jpg
     image3: ../../static/lina_diagonal_shorts_img_8564_retouched.jpg
+    image4:
 ---

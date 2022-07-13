@@ -12,7 +12,7 @@ rise: "0"
 description: |-
   Made of
   one seed sack and one reworked shirt.
-  This item is one of a kind. 
+  This item is one of a kind.
 
   How to take care
   Wash at 30 degrees
@@ -22,4 +22,5 @@ images:
   - image1: ../../static/113.jpg
     image2: ../../static/114.jpg
     image3: ../../static/119.jpg
+    image4:
 ---

@@ -12,7 +12,7 @@ rise: "0"
 description: |-
   Made of
   three vintage sacks and one reworked shirt.
-  This item is one of a kind. 
+  This item is one of a kind.
 
   How to take care
   Wash at 30 degrees
@@ -22,4 +22,5 @@ images:
   - image1: ../../static/62.jpg
     image2: ../../static/весілля.png
     image3: ../../static/весілля2.png
+    image4:
 ---

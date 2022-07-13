@@ -12,7 +12,7 @@ rise: "29"
 description: |-
   Made of
   one vintage sack and two pairs of reworked trousers.
-  This item is one of a kind. 
+  This item is one of a kind.
 
   How to take care
   Wash at 30 degrees
@@ -22,4 +22,5 @@ images:
   - image1: ../../static/32.jpg
     image2: ../../static/33.jpg
     image3: ../../static/31.jpg
+    image4:
 ---
