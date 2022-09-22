@@ -83,7 +83,7 @@ const CheckoutPage = (props) => {
           <div>
             <h1>Coool ❤️</h1>
             <p>
-              We're already going to chat with you and send your item!
+              We are on the way to write you
             </p>
           </div>
           <div className={css.successIcon}>
