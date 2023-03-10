@@ -2,7 +2,7 @@
 templateKey: product-page
 title: Farm
 price: 150$
-size: S
+size: M
 width: "53"
 length: "70"
 shoulders: "42"
