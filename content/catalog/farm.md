@@ -4,10 +4,10 @@ title: Farm
 price: 150$
 size: M
 width: "53"
-length: "70"
+length: "74"
 shoulders: "42"
-sleeve: "63"
-waist: "0"
+sleeve: "69"
+waist: ""
 rise: "0"
 description: |-
   Made of
